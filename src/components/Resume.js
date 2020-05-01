@@ -1,10 +1,12 @@
 import React from 'react';
+import NavBar from './NavBar';
 
 const Resume = () =>{
     return(
-        <h2>
-            This is the Resume Page
-        </h2>
+        <>
+            <NavBar/>
+            <h2>This is the Resume Page</h2>
+        </>
     )
 }
 

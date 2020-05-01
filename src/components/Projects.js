@@ -1,10 +1,12 @@
 import React from 'react';
+import NavBar from './NavBar';
 
 const Projects = () =>{
     return(
-        <h2>
-            This is the Projects Page
-        </h2>
+        <>
+            <NavBar/>
+            <h2>This is the Projects Page</h2>
+        </>
     )
 }
 
