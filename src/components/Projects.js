@@ -45,7 +45,7 @@ const Projects = () =>{
                             Once a term is added to the wiki, additional resources can be inserted or removed. Allows user to archive and
                             delete archived terms. The two buttons at top allow the user to hide archived and active terms from view.
                             </CardText>
-                            <CardLink href="https://dashboard.heroku.com/apps/learners-catalog">Deployed Project Link</CardLink>
+                            <CardLink href="https://learners-catalog.herokuapp.com/">Deployed Project Link</CardLink>
                             <CardLink href="https://github.com/jpeavler/video-games-api">Github Link</CardLink>
                         </CardBody>
                     </Card>
