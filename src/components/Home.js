@@ -6,7 +6,7 @@ const Home = () =>{
         <>
             <NavBar/>
             <h2>Home</h2>
-            <p>Aspiring web developer. Learning full stack develpoment at Helio Training.</p>
+            <p>Aspiring web developer. Learning full stack development at Helio Training.</p>
         </>
     )
 }
