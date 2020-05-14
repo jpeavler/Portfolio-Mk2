@@ -4,10 +4,10 @@ import {
     Switch,
     Route,
   } from 'react-router-dom';
-import Home from './components/Home';
-import Resume from './components/Resume';
-import Projects from './components/Projects';
-import ContactMe from './components/ContactMe';
+import Home from './pages/Home';
+import Resume from './pages/Resume';
+import Projects from './pages/Projects';
+import ContactMe from './pages/ContactMe';
 
   function MyRouter () {
       return(
