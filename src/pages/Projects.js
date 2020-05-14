@@ -29,8 +29,8 @@ const Projects = () =>{
                             A website that allows users to view, create, edit, or delete descriptions of games in a game collection. The Video Games tab is
                             the only functional page as I plan to add additional game collections in the future. Utilizes a MERN fullstack.
                             </CardText>
-                            <CardLink href="https://game-collection-jpeavler2.herokuapp.com/">Deployed Project Link</CardLink>
-                            <CardLink href="https://github.com/jpeavler/video-games-api">Github Link</CardLink>
+                            <CardLink target="_blank" href="https://game-collection-jpeavler2.herokuapp.com/">Deployed Project Link</CardLink>
+                            <CardLink target="_blank" href="https://github.com/jpeavler/video-games-api">Github Link</CardLink>
                         </CardBody>
                     </Card>
                 </Col>
@@ -45,8 +45,8 @@ const Projects = () =>{
                             Once a term is added to the wiki, additional resources can be inserted or removed. Allows user to archive and
                             delete archived terms. The two buttons at top allow the user to hide archived and active terms from view.
                             </CardText>
-                            <CardLink href="https://learners-catalog.herokuapp.com/">Deployed Project Link</CardLink>
-                            <CardLink href="https://github.com/jpeavler/video-games-api">Github Link</CardLink>
+                            <CardLink target="_blank" href="https://learners-catalog.herokuapp.com/">Deployed Project Link</CardLink>
+                            <CardLink target="_blank" href="https://github.com/jpeavler/Learners-Catalog">Github Link</CardLink>
                         </CardBody>
                     </Card>
                 </Col>
