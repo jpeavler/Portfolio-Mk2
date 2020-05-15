@@ -20,6 +20,12 @@ nav .NavLink:hover{
 .card{
   box-shadow: 0 4px 8px 0;
 }
+.profile-card{
+  max-width: 310px;
+}
+.profile{
+  max-width: 300px;
+}
 @media all and (max-width: 600px){
   .nav{
     flex-direction: column; 
