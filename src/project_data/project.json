@@ -1,0 +1,23 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Game Collection",
+            "img": "/assets/gameCollectionProject.png",
+            "alt": "Game Collection Project",
+            "desc": "I personally liked how I styled this project, it was my first time I felt that I made a nice looking website. A website that allows users to view, create, edit, or delete descriptions of games in a game collection. The Video Games tab is the only functional page as I plan to add additional game collections in the future. Utilizes a MERN fullstack.",
+            "depLink": "https://game-collection-jpeavler2.herokuapp.com/",
+            "githubLink": "https://github.com/jpeavler/video-games-api"
+
+        },
+        {
+            "id": 2,
+            "name": "Web Development Terminology",
+            "img": "/assets/WebDevTerms.png",
+            "alt": "Web Development Terminology Project",
+            "desc": "I share this project since this is the most robust project I've made functionally speaking. A Computer Science terminology wiki that allows the user to store terms with their own resources. Once a term is added to the wiki, additional resources can be inserted or removed. Allows user to archive and delete archived terms. The two buttons at top allow the user to hide archived and active terms from view.",
+            "depLink": "https://learners-catalog.herokuapp.com/",
+            "githubLink": "https://github.com/jpeavler/Learners-Catalog"
+        }
+    ]
+}
