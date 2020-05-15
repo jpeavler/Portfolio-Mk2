@@ -17,8 +17,12 @@ nav .NavLink{
 nav .NavLink:hover{
   background-color: #1565C0
 }
+.full{
+  margin: 2vw;
+}
 .card{
   box-shadow: 0 4px 8px 0;
+  margin: 1vw;
 }
 .profile-card{
   max-width: 310px;

@@ -30,7 +30,7 @@ const Projects = () =>{
             <NavBar/>
             <h2>Projects</h2>
             <h3>Full Stack Projects</h3>
-            <CardDeck>{displayFSProjects}</CardDeck>
+            <CardDeck className="full">{displayFSProjects}</CardDeck>
         </>
     )
 }
