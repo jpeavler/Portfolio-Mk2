@@ -18,6 +18,15 @@
             "desc": "I share this project since this is the most robust project I've made functionally speaking. A Computer Science terminology wiki that allows the user to store terms with their own resources. Once a term is added to the wiki, additional resources can be inserted or removed. Allows user to archive and delete archived terms. The two buttons at top allow the user to hide archived and active terms from view.",
             "depLink": "https://learners-catalog.herokuapp.com/",
             "githubLink": "https://github.com/jpeavler/Learners-Catalog"
+        },
+        {
+            "id": 3,
+            "name": "To Do List",
+            "img": "/assets/ToDoList.png",
+            "alt": "To Do List Project",
+            "desc": "For this project, I focused further on adding functionality. While this isn't my prettiest project, I'm proud that I created a dynamic form. For every click on the add list item button, more input fields show up that can be removed with the X button following each grouping. I'm glad I was able to step away from update and delete functionality and focus on adding. This project is formatted well for smaller screens.",
+            "depLink": "https://to-do-list-1000.herokuapp.com/",
+            "githubLink": "https://github.com/jpeavler/to-do"
         }
     ]
 }
