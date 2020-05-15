@@ -20,7 +20,7 @@ const Projects = () =>{
             <Row>
                 <Col sm = "1"></Col>
                 <Col sm ="5">
-                    <Card>
+                    <Card body outline color="secondary" className="card">
                         <CardImg top src="/assets/gameCollectionProject.png" alt="Game Collection Project"/>
                         <CardBody>
                             <CardTitle>Game Collection</CardTitle>
@@ -35,9 +35,9 @@ const Projects = () =>{
                     </Card>
                 </Col>
                 <Col sm ="5">
-                    <Card>
+                    <Card body outline color="secondary" className="card">
                         <CardImg top src="/assets/WebDevTerms.png" alt="Web Development Terminology Project"/>
-                        <CardBody>
+                        <CardBody >
                             <CardTitle>Web Development Terminology</CardTitle>
                             <CardText>
                             I share this project since this is the most robust project I've made functionally speaking.

@@ -18,12 +18,12 @@ const ContactMe = () =>{
             <Row>
                 <Col sm="1"></Col>
                 <Col sm="2">
-                    <Card>
+                    <Card body outline color="secondary" className="card">
                         <CardImg src="/assets/ProfilePicture.jpg" alt="Joshua Peavler"/>
                     </Card>
                 </Col>
                 <Col sm="8">
-                    <Card style={{ height: '18rem'}}>
+                    <Card style={{ height: '18rem'}} body outline color="secondary" className="card">
                         <CardBody>
                             <CardText style={{ "text-align": "Left"}}>
                                 If you would like to reach out to talk about coding projects, feel free to

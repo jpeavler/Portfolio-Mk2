@@ -18,7 +18,7 @@ const Home = () =>{
             <Row>
                 <Col sm="2"></Col>
                 <Col sm="8">
-                    <Card>
+                    <Card body outline color="secondary" className="card">
                         <CardBody>
                             <CardText>
                             Aspiring web developer. Learning full stack development at Helio Training.
