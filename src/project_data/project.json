@@ -5,7 +5,7 @@
             "name": "Game Collection",
             "img": "/assets/gameCollectionProject.png",
             "alt": "Game Collection Project",
-            "desc": "I personally liked how I styled this project, it was my first time I felt that I made a nice looking website. A website that allows users to view, create, edit, or delete descriptions of games in a game collection. The Video Games tab is the only functional page as I plan to add additional game collections in the future. Utilizes a MERN fullstack.",
+            "desc": "I personally liked how I styled this project, it was my first time I felt that I made a nice looking website. A website that allows users to view, create, edit, or delete descriptions of games in a game collection. The Video Games and Board Games pages are the only functional tabs as I plan to add additional game collections in the future. Utilizes a MERN fullstack.",
             "depLink": "https://game-collection-jpeavler2.herokuapp.com/",
             "githubLink": "https://github.com/jpeavler/video-games-api"
 
