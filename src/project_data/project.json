@@ -26,7 +26,7 @@
             "alt": "Shop Project",
             "desc": "This project, when complete, will be a demo shopping app. For this phase of the project, I have created an inventory system that allows users to add items to their shop. This is the first project I have done that utilizes modals and I'm quite happy with the result. The next step will be to add a users system with authentication.",
             "depLink": "https://shop-jpeavler.herokuapp.com/",
-            "githubLink": "https://github.com/jpeavler/to-do"
+            "githubLink": "https://github.com/jpeavler/shop"
         }
     ]
 }
