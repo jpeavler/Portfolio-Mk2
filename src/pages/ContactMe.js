@@ -16,7 +16,7 @@ const ContactMe = () =>{
             <h2>Contact Me</h2>
             <CardDeck>
                 <Card body outline color="secondary" className="profile-card">
-                    <CardImg className="profile" src="/assets/ProfilePicture.jpg" alt="Joshua Peavler"/>
+                    <CardImg className="profile" src="/assets/profile.png" alt="Joshua Peavler"/>
                 </Card>
                 <Card body outline color="secondary" className="card">
                     <CardBody>
