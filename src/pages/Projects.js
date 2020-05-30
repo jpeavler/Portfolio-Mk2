@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import data from '../project_data/project.json'
 import Game from '../project_data/TicTacToe/TicTacToe'
+import DiceBag from '../project_data/Dice/components/DiceBag'
 import '../project_data/TicTacToe/TicTacToe.css'
 import {
     CardDeck,
@@ -42,6 +43,13 @@ const Projects = () =>{
                         <CardTitle>React Tic Tac Toe</CardTitle>
                         <CardText>My first project using React, I followed the React tutorial to make this Tic Tac Toe game.</CardText>
                         <CardLink target="_blank" href="">Github Link</CardLink>
+                    </CardBody>
+                </Card>
+                <Card outline color="secondary" className="card">
+                    <CardBody>
+                        <DiceBag/>
+                        <CardTitle>Dice with Context</CardTitle>
+                        <CardText>Created using React, this applet allows users to make as many dice as they want with as many sides as they want. This is my first project I made to utilize Context. Feel free to make and roll your own.</CardText>
                     </CardBody>
                 </Card>
             </CardDeck>
