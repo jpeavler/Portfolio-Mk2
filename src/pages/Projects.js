@@ -36,8 +36,8 @@ const Projects = () =>{
             <CardDeck className="full">{displayFSProjects}</CardDeck>
             <h3>Small Projects</h3>
 
-            <CardDeck>
-                <Card outline color="secondary" className="card">
+            <CardDeck className="full">
+                <Card outline color="secondary" className="card" id="TicTacToe">
                     <CardBody>
                         <CardTitle>React Tic Tac Toe</CardTitle>
                         <CardText>My first project using React, I followed the React tutorial to make this Tic Tac Toe game. The buttons allow the user to transport back in time to a specific move.</CardText>
@@ -45,7 +45,7 @@ const Projects = () =>{
                         <Game/>
                     </CardBody>
                 </Card>
-                <Card outline color="secondary" className="card">
+                <Card outline color="secondary" className="card" id="Dice">
                     <CardBody>
                         <CardTitle>Dice with Context</CardTitle>
                         <CardText>Created using React, this applet allows users to make as many dice as they want with as many sides as they want. This is my first project I made to utilize Context. Feel free to make and roll your own.</CardText>
