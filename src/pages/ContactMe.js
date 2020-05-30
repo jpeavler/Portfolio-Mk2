@@ -14,10 +14,7 @@ const ContactMe = () =>{
         <>
             <NavBar/>
             <h2>Contact Me</h2>
-            <CardDeck>
-                <Card body outline color="secondary" className="profile-card">
-                    <CardImg className="profile" src="/assets/profile.png" alt="Joshua Peavler"/>
-                </Card>
+            <CardDeck className="full">
                 <Card body outline color="secondary" className="card">
                     <CardBody>
                         <CardText style={{ "textAlign": "Left"}}>
