@@ -1,17 +1,15 @@
 import React from 'react';
-import {DiceBagContext} from '../context/roll-context'
+import {Button} from 'reactstrap';
+import {DiceBagContext} from '../context/roll-context';
+import '../dice.css'
 
 function Die({die, index}){
     return(
         <DiceBagContext.Consumer>
             {({rollOne}) => (
-                <div>
-                    {die.numSides} : {die.currentRoll}
-                    <button
-                        onClick={() => rollOne(index)}
-                    >
-                        Roll
-                    </button>
+                <div className="Die">
+                    <Button color="primary" id={index} onClick={() => rollOne(index)} block>Roll {die.numSides} Sided Die</Button>
+                    Result: {die.currentRoll}
                 </div>
             )}
         </DiceBagContext.Consumer>

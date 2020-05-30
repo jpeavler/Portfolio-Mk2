@@ -10,8 +10,6 @@ class DiceBag extends React.Component {
         this.state = {
             dice: [ 
                 {numSides: 6, currentRoll: 0},
-                {numSides: 8, currentRoll: 0},
-                {numSides: 10, currentRoll: 0}
             ],
             rollAll: this.rollAll,
             rollOne: this.rollOne,
@@ -46,7 +44,6 @@ class DiceBag extends React.Component {
             <DiceBagContext.Provider value={this.state}>
                 <div>
                     <DiceForm/>
-                    Roll all dice: 
                     <RollAll/>
                     {displayDice}
                 </div>

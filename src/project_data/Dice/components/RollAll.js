@@ -1,15 +1,12 @@
 import React from 'react';
 import {DiceBagContext} from "../context/roll-context"
+import {Button} from 'reactstrap';
 
 function RollAll(){
     return(
         <DiceBagContext.Consumer>
             {({ rollAll}) => (
-                <button
-                onClick={rollAll}
-                >
-                    Roll All Dice
-                </button>
+                <Button className="rollall" color ="primary" onClick={rollAll} block>Roll All Dice</Button>
             )}
         </DiceBagContext.Consumer>
     )

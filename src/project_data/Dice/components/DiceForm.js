@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {DiceBagContext} from '../context/roll-context';
-import {Button} from 'reactstrap';
+import {Button, Input, Label, Form} from 'reactstrap';
 
 class DiceForm extends Component{
     constructor(props){
@@ -17,12 +17,13 @@ class DiceForm extends Component{
         return(
             <DiceBagContext.Consumer>
                 {({addToDice}) => (
-                    <div>
-                        Add new Die to collection:
-                        <input type="number" onChange={this.handleInput}min="2"/>
+                    <Form className="form">
+                        <Label for="diceadd">Add new Die to collection:</Label>
+                        <Input id="diceadd" type="number" onChange={this.handleInput}min="2"  
+                                placeholder="Number of Sides"/>
                         <Button onClick={() => addToDice({numSides: this.state.numSides, currentRoll: 0})} 
-                                color="primary">Add Die</Button>
-                    </div>
+                                color="primary" block>Add Die</Button>
+                    </Form>
                 )}
             </DiceBagContext.Consumer>
         )
