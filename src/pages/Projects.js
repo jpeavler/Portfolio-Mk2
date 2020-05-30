@@ -39,17 +39,18 @@ const Projects = () =>{
             <CardDeck>
                 <Card outline color="secondary" className="card">
                     <CardBody>
-                        <Game/>
                         <CardTitle>React Tic Tac Toe</CardTitle>
-                        <CardText>My first project using React, I followed the React tutorial to make this Tic Tac Toe game.</CardText>
-                        <CardLink target="_blank" href="">Github Link</CardLink>
+                        <CardText>My first project using React, I followed the React tutorial to make this Tic Tac Toe game. The buttons allow the user to transport back in time to a specific move.</CardText>
+                        <CardLink target="_blank" href="https://github.com/jpeavler/Intro-to-React-Tutorial">Github Link</CardLink>
+                        <Game/>
                     </CardBody>
                 </Card>
                 <Card outline color="secondary" className="card">
                     <CardBody>
-                        <DiceBag/>
                         <CardTitle>Dice with Context</CardTitle>
                         <CardText>Created using React, this applet allows users to make as many dice as they want with as many sides as they want. This is my first project I made to utilize Context. Feel free to make and roll your own.</CardText>
+                        <CardLink target="_blank" href="https://github.com/jpeavler/Dice-React-Context">Github Link</CardLink>
+                        <DiceBag/>
                     </CardBody>
                 </Card>
             </CardDeck>
