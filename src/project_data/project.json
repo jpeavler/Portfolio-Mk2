@@ -24,7 +24,7 @@
             "name": "Shop",
             "img": "/assets/Shop.png",
             "alt": "Shop Project",
-            "desc": "This project, when complete, will be a demo shopping app. For this phase of the project, I have created an inventory system that allows users to add items to their shop. This is the first project I have done that utilizes modals and I'm quite happy with the result. The next step will be to add a users system with authentication.",
+            "desc": "This project, when complete, will be a demo shopping app. Currently, users can register and log in to create their own items to sell. This is my first project where I've utilized authorization, which leveraged JWT and local storage. Users can view, create, edit, and remove their own products to sell in the shop as well as update their bio and set their profile icon to one of four images. The next step is to create a cart that allows users to add any item within the entire store to their cart for purchase.",
             "depLink": "https://shop-jpeavler.herokuapp.com/",
             "githubLink": "https://github.com/jpeavler/shop"
         },
