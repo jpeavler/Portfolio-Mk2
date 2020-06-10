@@ -1,15 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import NavBar from '../components/NavBar';
-import {
-    CardDeck,
-    Card, 
-    CardImg, 
-    CardText, 
-    CardBody,
-    CardLink,
-} from 'reactstrap'
+import ContactForm from '../components/ContactForm';
+import {CardDeck, Card, CardText, CardBody, CardLink, Button} from 'reactstrap'
 
 const ContactMe = () =>{
+    const [modalOpen, setModal] = useState(false);
+    const toggle = () => {setModal(!modalOpen)}
     return(
         <>
             <NavBar/>
@@ -21,10 +17,13 @@ const ContactMe = () =>{
                             If you would like to reach out to talk about coding projects, feel free to
                             reach me via Github. If you are interested in networking, feel free to 
                             contact me via LinkedIn or Github. I'm also always open via email as well.
+                            Feel free to use the form below.
                         </CardText>
                     <CardLink target="_blank" href="https://www.linkedin.com/in/joshuapeavler/">LinkedIn</CardLink>
                     <CardLink target="_blank" href="https://github.com/jpeavler">Github</CardLink>
                     <CardText>Email: joshuaapeavler@gmail.com</CardText>
+                    <Button color="primary" onClick={toggle} block>Open Contact Form</Button>
+                    <ContactForm modalOpen={modalOpen} toggle={toggle}/>
                     </CardBody>
                 </Card>
             </CardDeck>
