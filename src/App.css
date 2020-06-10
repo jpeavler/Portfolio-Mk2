@@ -28,6 +28,21 @@ nav .NavLink:hover{
 .profile{
   max-width: 700px;
 }
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 100%;
+}
+iframe {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
 @media all and (max-width: 600px){
   .nav{
     flex-direction: column; 
@@ -40,5 +55,13 @@ nav .NavLink:hover{
   }
   .card {
     min-width: 290px;
+  }
+  iframe {
+    top: 30%;
+    left: 0;
+    bottom: 10%;
+    right: 0;
+    width: 100%;
+    height: 70%;
   }
 }

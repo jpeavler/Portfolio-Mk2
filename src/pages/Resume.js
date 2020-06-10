@@ -6,7 +6,7 @@ const Resume = () =>{
         <>
             <NavBar/>
             <h2>Resume</h2>
-            <iframe title="resume" src="/assets/Resume.pdf" width="90%" height="900px"></iframe>
+            <iframe title="resume" src="/assets/Resume.pdf"></iframe>
         </>
     )
 }
