@@ -2,7 +2,8 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import {
     Card, 
-    CardText, 
+    CardText,
+    CardHeader, 
     CardBody,
     CardImg,
     CardDeck
@@ -18,15 +19,10 @@ const Home = () =>{
                         <CardImg className="profile" src="/assets/profile.png" alt="Joshua Peavler"/>
                 </Card>
                 <Card body outline color="secondary" className="card">
+                    <CardHeader><h3>MERN Full Stack Web Developer: Seeking Employment</h3></CardHeader>
                     <CardBody>
-                        <h3>MERN Full Stack Web Developer</h3>
                         <CardText style={{ "textAlign": "Left"}}>
-                        Aspiring to become a software developer. Currently studying MERN 
-                        (MongoDB, Express, React, Node) full stack web development. Enjoys 
-                        problem solving and troubleshooting, especially when helping others. 
-                        Hopes to spruce up on C++ and learn other C languages after mastering 
-                        JavaScript. Effective at training and teaching in both workplace and school.
-                        Studies Japanese via Doulingo on the side. 
+                        Lifetime learning is my goal. Proficient in MERN (MongoDB, Express, React, Node) full stack web development. Enjoys problem solving and troubleshooting, especially when helping others. In addition to JavaScript, I'm learning Java and C# languages. Effective at training and teaching in both the workplace and in school. Studies Japanese via Doulingo on the side. 
                         </CardText>
                     </CardBody>
                 </Card>
